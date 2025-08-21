@@ -1,0 +1,256 @@
+.headermd{
+	display: none;
+}
+
+@media(max-width: 767px){
+	.text-primary-md-200{
+	background-color: var(--primary-200);
+	}
+	.text-primary-md-100{
+	background-color: var(--primary-100);
+	}
+	.headermd{
+	display: block;
+	}
+}
+
+.top-banner {
+	background-image: url(index_pic/banner.png);
+  	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center;
+	padding: 288px 0px 288px 200px;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.top-banner p {
+	color: var(--neutral-0);
+}
+
+.top-banner button {
+	background-color: var(--primary-300);
+	color: var(--neutral-900);
+	border: none;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	.top-banner {
+	padding: 155px 0;
+	background-image: url(index_pic/banner-sm.png);
+	}
+}
+
+.new-arrival img{
+	width: 100%;
+	height: auto;
+	object-fit: cover; 
+}
+
+.product{
+	position: relative;
+}
+
+.product-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 8px 12px;
+	background-color: var(--primary-100);
+	color: var(--primary-400);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+	.product-md-row {
+		margin-left: -8px;
+		margin-right: -8px;
+		display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        flex-shrink: 0;
+	}
+	.product-md-col {
+		min-width: 316px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+
+.mid-banner{
+	background-image: url(index_pic/banner-co-branded.png);
+  	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center;
+	padding: 100px 0px;
+	max-width: 1920px;
+	height: 470px;
+	margin: 0 auto;
+	color: var(--neutral-0);
+	position: relative;
+	position: relative;
+    overflow: hidden;
+}
+
+.star-img{
+	width: 48px;
+	position: absolute;
+	top: 68px;
+	left: calc(50% - 397px);
+}
+
+.sparkle-img{
+	width: 76px;
+	position: absolute;
+	bottom: 123px;
+	right: calc(50% - 357px);
+}
+
+.btn-primary-300{
+	background-color: var(--primary-300);
+}
+
+@media(max-width: 767px){
+	.mid-banner{
+		padding: 64px 0px;
+		background-image: url(index_pic/banner-co-branded-sm.png);
+}
+	.star-img{
+	width: 48px;
+	position: absolute;
+	top: 32px;
+	left: -20px;
+}
+	.sparkle-img{
+	width: 76px;
+	position: absolute;
+	bottom: 104px;
+	right: -28px;
+}
+}
+
+.indicator-active{
+	width: 24px;
+	height: 8px;
+	border-radius: 4rem;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+.indicator {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+.category {
+	position: relative;
+}
+
+.category-text {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.inspiration-row{
+	display: flex;
+	flex-wrap: wrap;
+	margin: -4px;
+}
+
+.inspiration-col-4{
+	width: calc(100%/12*4);
+	padding: 4px;
+}
+
+.inspiration-col-6{
+	width: calc(100%/12*6);
+	padding: 4px;
+}
+
+.inspiration-col-12{
+	width: calc(100%);
+	padding: 4px;
+}
+
+@media (max-width: 767px) {
+	.inspiration-row{
+		flex-wrap: nowrap;
+		margin: 0 -8px;
+		overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        flex-shrink: 0;
+	}
+    .inspiration-row img {
+        min-width: 300px;
+    }
+	.inspiration-col-4,
+	.inspiration-col-6,
+	.inspiration-col-12 {
+		width: unset;
+		padding: 0px 8px;
+	}
+}
+
+.discount-banner{
+    background-color: var(--primary-200);
+}
+
+.discount-banner .btn{
+    background-color: var(--neutral-900);
+    color:var(--neutral-0);
+}
+
+.discount-banner .btn:hover{
+    background-color: var(--neutral-600);
+    color:var(--neutral-0);
+}
+
+.discount-banner p{
+    font-weight: 700;
+}
+
+.footer-menu{
+	max-width: 1296px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 12px 24px;
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+footer{
+    color: var(--neutral-600);
+}
+
+@media (max-width: 856px) {
+  .story-container {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
